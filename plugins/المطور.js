@@ -3,6 +3,6 @@ function handler(m) {
   this.sendContact(m.chat, data.map(([id, name]) => [id, name]), m)
 }
 handler.alias = ['صاحب البوت']
-handler.command = /^(المالك|owner)$/i
+handler.command = /^(المطور|مطور)$/i
 
 export default handler
